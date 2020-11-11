@@ -1,0 +1,128 @@
+body{
+  background-image:url("https://images.unsplash.com/photo-1581974944026-5d6ed762f617?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&dl=zac-bromell-Sxw9Cno5o9U-unsplash.jpg"); 
+  background-color:white;
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position:center;
+  font-size:1rem;
+  font-weight:400;
+  line-height:1.4;
+  margin:0;
+}
+
+.header {
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+}
+
+h1{
+  font-weight:400;
+  line-height:1.2;
+}
+
+p{
+  font-size:1.125rem;
+}
+
+h1,p{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+}
+
+form{
+    padding: 2.5rem 0.625rem;
+    border-radius: 0.25rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1.125rem;
+  margin-bottom: 0.5rem;
+}
+
+.form-control {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+
+#survey-form{
+  width:100%;
+  margin:3.125rem auto 0 auto;
+  background-color:#fff5ee;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container {
+  width: 100%;
+  margin: 3.125rem auto 0 auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+.text-center{
+  text-align:center;
+  color:#fff5ee;
+}
+
+.clue {
+  margin-left: 0.25rem;
+  font-size: 0.9rem;
+  color: #808a87;
+}
+
+#dropdown{
+  display: block;
+  width: 100%;
+  height: 2.375rem;
+  padding: 0.375rem 0.75rem;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.input-textarea {
+  min-height: 120px;
+  width: 80%;
+  resize: vertical;
+}
+
+.submit-button {
+  display: block;
+  width: 100%;
+  padding: 0.75rem;
+  background: #FF9912;
+  color: inherit;
+  border-radius: 2px;
+  cursor: pointer;
+}

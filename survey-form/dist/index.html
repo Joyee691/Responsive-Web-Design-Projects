@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Survey Form</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<div class='container'>
+  <header class='header'>
+    <h1 id='title' class='text-center'>Favorite streaming music Survey From</h1>
+    <p id='description' class='text-center'>Help us to improve our User Experience</p>
+  </header>
+  <form id='survey-form'>
+    <div class='form-group'>
+      <label id='name-label' for="name">Name:</label>
+      <input id='name' type="text" placeholder='Enter your name' class="form-control" required/>
+    </div>
+    <div class='form-group'>
+      <label id='email-label' for="email">Email:</label>
+      <input id='email' type="email" placeholder='Enter your Email' class="form-control" required/>
+    </div>
+    <div class='form-group'>
+      <label id=number-label for="number">Age<span class='clue'>(optional)</span>:</label>
+      <input id='number' type="number" min='10' max='100' placeholder='Enter your age' class="form-control" />
+    </div>
+    <div class='form-group'>
+      <p>Which is your favorite streaming music platform?</p>
+      <select name="platform" id="dropdown">
+        <option selected disabled value="">Choose your favorite platform</option>
+        <option value="Apple music">Apple music</option>
+        <option value="Spotify">Spotify</option>
+        <option value="Youtube music">Youtube music</option>
+        <option value="pandora">pandora</option>
+        <option value="amazon music">amazon music</option>
+        <option value="NetEast music">NetEast music</option>
+      </select>
+    </div>
+    <div class='form-group'>
+      <p>How much time do you spent listening music a day?</p>
+      <label>
+        <input type="radio" name='time' value='under 1 hour' class="input-radio" checked>Under 1 hour
+      </label>
+      <label>
+        <input type="radio" name='time' value='1-2 hours' class="input-radio">1-2 hours
+      </label>
+      <label>
+        <input type="radio" name='time' value='2-4 hours' class="input-radio">2-4 hours
+      </label>
+      <label>
+        <input type="radio" name='time' value='more than 4 hours' class="input-radio">More than 4 hours
+      </label>
+    </div>
+    <div class='form-group'>
+      <p>Which factor affects you most?</p>
+      <label>
+        <input type="checkbox" value='price' class="input-checkbox">Price
+      </label>
+      <label>
+        <input type="checkbox" value='UI' class="input-checkbox">User Interface
+      </label>
+      <label>
+        <input type="checkbox" value='sound quality' class="input-checkbox">Sound quality
+      </label>
+      <label>
+        <input type="checkbox" value='number of songs' class="input-checkbox">Number of songs
+      </label>
+    </div>
+    <div class='form-group'>
+      <p>Any suggestions or comments?</p>
+      <textarea name='comments' placeholder='Enter your comments here...' class="input-textarea"></textarea>
+    </div>
+    <div class='form-group'>
+      <button id='submit' type='submit' class="submit-button">Submit</button>
+    </div>
+  </form>
+</div>
+<!-- partial -->
+  
+</body>
+</html>

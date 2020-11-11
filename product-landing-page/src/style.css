@@ -1,0 +1,159 @@
+* {
+	margin:0;
+	border:0;
+	box-sizing:border-box;
+}
+body{
+	background-color: #eee;
+}
+#page-wrapper{
+	position: relative;
+}
+li{
+	list-style: none;
+}
+a{
+	color: #000;
+	text-decoration: none;
+}
+
+
+header{
+	position: fixed;
+	top:0;
+	width:100%;
+	min-height: 75px;
+	padding: 0px 20px;
+	display: flex;
+	justify-content:space-around;
+	align-items:center;
+	background-color: #eee;
+}
+.logo{
+	width:60vw;
+}
+.logo>img{
+	width:100%;
+	height:100%;
+	max-width: 250px;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	margin-left:20px;
+	margin-top:5px;
+}
+nav{
+	font-weight:400;
+}
+nav>ul{
+	width:35vw;
+	display: flex;
+	flex-direction:row;
+	justify-content:space-around;
+	align-items:center;
+	margin:0;
+}
+
+#container{
+	width:100%;
+	margin:0 auto;
+}
+#leaveInfo{
+	display: flex;
+	flex-direction:column;
+	align-items:center;
+	justify-content:center;
+	text-align:center;
+	height:200px;
+	margin-top:50px;
+}
+#leaveInfo>h2{
+	word-wrap:break-word;
+}
+#leaveInfo>form{
+	width:50vw;
+}
+#email{
+	margin-right:5px;
+}
+
+.grid{
+	width:80%;
+	margin:0 auto;
+}
+.icon{
+	font-size:50px;
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+	height:125px;
+	width:20vw;
+	color:green;
+}
+.description{
+	display:flex;
+	flex-direction:column;
+	align-items:flex-start;
+	justify-content:center;
+	height:125px;
+	width:80vw;
+	padding:5px;
+}
+
+#intro{
+	margin-top:50px;
+	display:flex;
+	justify-content:center;
+}
+
+#pricing{
+	margin-top:60px;
+	display:flex;
+	justify-content:center;
+}
+.product{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	text-align:center;
+	width:33.3vw;
+	margin:10px;
+	border: 1px solid #000;
+	border-radius:5px;
+}
+.product>.level{
+	background-color: #ddd;
+	border-radius:5px;
+	color:black;
+	padding:15px 0;
+	width:100%;
+	text-transform: uppercase;
+	font-weight:700;
+}
+.product>h2{
+	margin-top:15px;
+}
+.product>ol{
+	padding:10px 0;
+	
+}
+.product>ol>li{
+	text-align:center;
+	padding:5px 0;
+}
+.product>button{
+	margin-bottom: 15px;
+}
+
+footer{
+	margin-top:30px;
+	background-color: #ddd;
+	padding:20px;
+}
+footer>ul{
+	display: flex;
+	justify-content:flex-end;
+}
+footer>ul>li{
+	padding:0 10px;
+}
